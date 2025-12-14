@@ -1,0 +1,12 @@
+{
+    "name": "@laraveldesign/breadcrumbs",
+    "version": "1.0.0",
+    "description": "Breadcrumb navigation component for Laravel",
+    "main": "resources/js/vue/index.js",
+    "module": "resources/js/vue/index.js",
+    "files": ["resources/js/vue"],
+    "keywords": ["laravel", "breadcrumbs", "navigation", "livewire", "vue"],
+    "author": "Shane Barron <mrshanebarron@gmail.com>",
+    "license": "MIT",
+    "peerDependencies": {"vue": "^3.0.0"}
+}
