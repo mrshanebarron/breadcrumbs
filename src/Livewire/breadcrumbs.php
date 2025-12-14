@@ -17,6 +17,6 @@ class Breadcrumbs extends Component
 
     public function render()
     {
-        return view('ld-breadcrumbs::livewire.breadcrumbs');
+        return view('sb-breadcrumbs::livewire.breadcrumbs');
     }
 }

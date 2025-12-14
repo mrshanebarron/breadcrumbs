@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'LdBreadcrumbs',
+  name: 'SbBreadcrumbs',
   props: {
     items: { type: Array, required: true },
     separator: { type: String, default: 'chevron' }
