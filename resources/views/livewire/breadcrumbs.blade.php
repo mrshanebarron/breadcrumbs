@@ -7,6 +7,8 @@
                         <svg class="w-4 h-4 text-gray-400 mx-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
                     @elseif($separator === 'slash')
                         <span class="text-gray-400 mx-2">/</span>
+                    @elseif($separator === 'dot')
+                        <span class="text-gray-400 mx-2">&middot;</span>
                     @else
                         <span class="text-gray-400 mx-2">{{ $separator }}</span>
                     @endif
